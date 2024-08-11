@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Width and Depth Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Width and Depth Calculator</h2>
+            <button class="btn-logout">Logout</button>
+        </div>
+        <div class="header">
+            <img src="Drawing.png" alt="Drawing" class="drawing-image">
+        </div>
+        <br>
+        <form>
+            <label for="width">Width (W):</label>
+            <input type="number" id="width" value="0">
+            <label for="depth">Depth (D):</label>
+            <input type="number" id="depth" value="0">
+        </form>
+        <div class="results">
+            <p>CIW: <span id="ciw-result">0</span></p>
+            <p>CID: <span id="cid-result">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
