@@ -30,7 +30,7 @@ function updateCarpetArea() {
     const ciw = parseInt(ciwResult.textContent, 10);
     const cid = parseInt(cidResult.textContent, 10);
     const carpetArea = ciw * cid;
-    carpetAreaResult.textContent = carpetArea + ' sq ft';
+    carpetAreaResult.textContent = carpetArea ;
 }
 
 document.querySelector('.btn-logout').addEventListener('click', function() {
