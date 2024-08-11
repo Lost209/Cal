@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 320px;
     margin: 40px auto;
     padding: 20px;
     border: 1px solid #ddd;
@@ -66,6 +66,19 @@ header {
     padding: 10px;
     text-align: center;
     border-radius: 10px 10px 0 0;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+}
+
+.header2 h2 {
+    margin-right: 10px; /* add some space between the h2 and button */
+}
+
+.header2 button {
+    display: inline-block;
 }
 
 h1 {
@@ -104,10 +117,11 @@ input[type="text"], input[type="password"] {
 }
 
 .btn-logout {
-    background-color: #337ab7;
+    display: inline-block;
+    background-color: #f00;
     color: #fff;
-    padding: 10px 20px;
     border: none;
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
 }
